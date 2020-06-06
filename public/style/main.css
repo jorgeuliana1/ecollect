@@ -1,0 +1,41 @@
+:root {
+    --title-color: #322153;
+    --primary-color: #34CB89;
+    --bg-color: #F0F0F5;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--title-color);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+form input,
+form select {
+    border: 2px solid var(--bg-color);
+    outline: none;
+    transition: border 100ms;
+}
+
+form input:focus,
+form select:focus {
+    border: 2px solid var(--primary-color);
+}

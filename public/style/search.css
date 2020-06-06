@@ -1,0 +1,80 @@
+#page-search {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: var(--bg-color);
+}
+
+#page-search .content {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-search .logo {
+    width: 512px;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+#page-search form {
+    margin-top: 32px;
+    width: 600px;
+}
+
+#page-search form .field {
+    display: flex;
+}
+
+#page-search form input {
+    flex: 1;
+    background-color: white;
+    border-radius: 36px 0 0 36px;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    color: #6C6C80;
+    outline: none;
+    transition: border 100ms;
+}
+
+#page-search form input:focus {
+    border: 2px solid var(--primary-color);
+}
+
+
+#page-search form button {
+    width: 72px;
+    height: 72px;
+    background-color: var(--primary-color);
+    border: 0;
+    border-radius: 0 36px 36px 0;
+    outline: none;
+}
+
+#page-search form button:hover {
+    background-color: #2FB85E;
+}
+
+#page-search .external-link {
+    margin-top: 128px;
+}
+
+#page-search .external-link a {
+    display: flex;
+    font-weight: 700;
+    color: var(--title-color);
+}
+
+#page-search .external-link a span {
+    margin-right: 16px;
+    display: flex;
+    background-image: url("../assets/icones/log-in.svg");
+    width: 20px;
+    height: 20px;
+}
